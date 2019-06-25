@@ -1,5 +1,4 @@
-a=int(input("Input:"))
-print("Output:")
+a=int(input())
 if a>0:
     print("Positive")
 elif a<0:

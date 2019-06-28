@@ -11,4 +11,4 @@ for i in range (a[0]+1,a[1]):
             b.append(i)
     if flag==0:
         b.append(i)
-print(b)
+print(*b)

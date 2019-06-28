@@ -1,4 +1,5 @@
 a=[int(i) for i in input().split()]
+b=[]
 for i in range (a[0]+1,a[1]):
     flag=0
     for j in range (2,i):
@@ -7,6 +8,7 @@ for i in range (a[0]+1,a[1]):
                 flag=1
                 break
         else:
-            print(i)
+            b.append(i)
     if flag==0:
-        print(i)
+        b.append(i)
+print(b)

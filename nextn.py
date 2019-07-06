@@ -1,2 +1,3 @@
 u=int(input())
-print(u+1)
+v=u+1
+print(v)

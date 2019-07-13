@@ -1,8 +1,7 @@
 g=input()
 n=len(g)
 if n%2!=0:
-    a=g.replace(g[int(n/2)],'*',1)
+    g=g[:int(n/2)]+'*'+g[int(n/2)+1:n]
 else:
-    c=g.replace(g[int(n/2)-1],'*',1)
-    a=c.replace(c[int(n/2)],'*',1)
-print(a)
+    g=g[:int(n/2)-1]+'**'+g[int(n/2)+1:n]
+print(g)

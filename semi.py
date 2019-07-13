@@ -1,2 +1,2 @@
-string=input()
-print(string)
+semistring=input()
+print(semistring)

@@ -6,5 +6,5 @@ if(g>2):
             print("yes")
             flag=1
             break
-if flag==0:
+if flag==0 or g==2:
     print("no")

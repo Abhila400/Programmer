@@ -1,6 +1,7 @@
 r=int(input())
-i=1
-while r!=0:
-    i*=10
-    r=int(r/i)
+i=0
+d=1
+while d!=0:
+    i+=10
+    d=int(r/i)
 print(i)

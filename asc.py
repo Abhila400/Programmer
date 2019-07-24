@@ -1,2 +1,2 @@
-character=input()
-print(ord(character))
+mahi=input()
+print(ord(mahi))

@@ -3,7 +3,7 @@ flag=0
 for i in string:
 	if string.count(i)>1:
 		flag=1
-		print("no")
+		print("No")
 		break
 if flag==0:
-	print("yes")
+	print("Yes")

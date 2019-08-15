@@ -1,3 +1,3 @@
-cel=int(input())
-kel=cel+273
-print(kel)
+mahi=int(input())
+sakshi=mahi+273
+print(sakshi)

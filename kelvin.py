@@ -1,2 +1,3 @@
-c=int(input())
-print(c+273)
+cel=int(input())
+kel=cel+273
+print(kel)

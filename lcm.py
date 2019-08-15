@@ -9,4 +9,4 @@ for i in range(1,min+1):
 	if mahi%i==0 and sakshi%i==0:
 		l=mahi/i
 		lcm=l*sakshi
-print(lcm)
+print(int(lcm))

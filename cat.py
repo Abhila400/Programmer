@@ -1,2 +1,2 @@
-m,s=input().split()
-print(m+s)
+mahi,sakshi=input().split()
+print(mahi+sakshi)

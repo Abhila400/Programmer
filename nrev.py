@@ -1,2 +1,2 @@
-m=input()
-print(m[::-1])
+mahi=input()
+print(mahi[::-1])
